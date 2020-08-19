@@ -29,10 +29,10 @@ class AddPuppyPage extends Component {
   render() {
     return (
       <>
-        <h1>Add Puppy</h1>
+        <h1>Add your favorite musicians. Find Comparisons by reading up on them and adding notes,</h1>
         <form ref={this.formRef} autoComplete="off" onSubmit={this.handleSubmit}>
           <div className="form-group">
-            <label>Pup's Name (required)</label>
+            <label>Musician's Name (required)</label>
             <input
               className="form-control"
               name="name"
@@ -42,9 +42,9 @@ class AddPuppyPage extends Component {
             />
           </div>
           <div className="form-group">
-            <label>Pup's Breed (required)</label>
+            <label>Eras (required)</label>
             <select className="form-control" name="breed" value={this.state.formData.breed} onChange={this.handleChange}>
-              <option>Choose a Breed</option>
+              <option>40s - 50s</option>
               {this.props.breeds.map((breed, idx) => <option key={breed.id} value={breed.name}>{breed.name}</option>)}
             </select>
           </div>

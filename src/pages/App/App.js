@@ -76,12 +76,16 @@ class App extends Component {
                 <NavLink exact to='/'>PUPPIES LIST</NavLink>
                 &nbsp;&nbsp;&nbsp;
                 <NavLink exact to='/add'>ADD PUPPY</NavLink>
+                &nbsp;&nbsp;&nbsp;
+                <NavLink exact to='/src/utils/dogBreedInfo'>BREED DETAILS</NavLink>
               </>
               :
               <>
                 <NavLink exact to='/signup'>SIGNUP</NavLink>
                 &nbsp;&nbsp;&nbsp;
                 <NavLink exact to='/login'>LOGIN</NavLink>
+                &nbsp;&nbsp;&nbsp;
+                <NavLink exact to='/voting'>VOTE</NavLink>
                 &nbsp;&nbsp;&nbsp;
               </>
             }

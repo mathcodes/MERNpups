@@ -9,9 +9,9 @@ function PuppyCard({ puppy, handleDeletePuppy }) {
             </div>
             <div className='panel-body'>
                 <dl>
-                    <dt>Breed</dt>
+                    <dt>Genre</dt>
                     <dd>{puppy.breed}</dd>
-                    <dt>Age</dt>
+                    <dt>Born</dt>
                     <dd>{puppy.age}</dd>
                     <dt>Owner</dt>
                     <dd>{`${puppy.user.name.charAt(0).toUpperCase()}${puppy.user.name.slice(1)}`}</dd>
