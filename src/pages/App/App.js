@@ -85,8 +85,6 @@ class App extends Component {
                 &nbsp;&nbsp;&nbsp;
                 <NavLink exact to='/login'>LOGIN</NavLink>
                 &nbsp;&nbsp;&nbsp;
-                <NavLink exact to='/voting'>VOTE</NavLink>
-                &nbsp;&nbsp;&nbsp;
               </>
             }
           </nav>
